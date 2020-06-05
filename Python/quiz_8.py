@@ -19,6 +19,7 @@
 #   third argument of slice.
 
 class CircularList(list):
+    # Solution for Python Problem
     def __init__(self, *data):
         """Initialize the class"""
         super(CircularList, self).__init__()
