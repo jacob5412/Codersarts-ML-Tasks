@@ -1,4 +1,4 @@
-# Codearts Machine Learning Internship Tasks
+# Codersarts Machine Learning Internship Tasks
 
 ## Python Assessment
 
