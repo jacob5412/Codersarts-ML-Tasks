@@ -34,7 +34,7 @@ class CircularList(list):
             return super(CircularList, self).__getitem__(index)
         else:
             raise TypeError("Invalid argument type.")
-        
+
     def _rangeify(self, slice):
         """Convert slice to a range"""
         start, stop, step = slice.start, slice.stop, slice.step
