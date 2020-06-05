@@ -31,5 +31,3 @@ the BBC Sport website corresponding to sports news articles in five topical area
 For the provided BBC sports dataset, perform PCA and plot the captured variance with
 respect to increasing latent dimensionality. What is the minimum dimension that captures (a)
 at least 95% variance and (b) at least 98% variance?
-
-
