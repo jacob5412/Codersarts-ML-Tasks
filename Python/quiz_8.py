@@ -21,7 +21,10 @@
 class CircularList(list):
     # Solution for Python Problem
     def __init__(self, *data):
-        """Initialize the class"""
+        """
+        Initialize the class
+        Source: https://dzone.com/articles/python-circular-list
+        """
         super(CircularList, self).__init__()
         for d in data:
             self.append(d)
@@ -37,7 +40,10 @@ class CircularList(list):
             raise TypeError("Invalid argument type.")
 
     def _rangeify(self, slice):
-        """Convert slice to a range"""
+        """
+        Convert slice to a range
+        Source: https://stackoverflow.com/questions/8951020/pythonic-circular-list
+        """
         start, stop, step = slice.start, slice.stop, slice.step
         if step is None:
             step = 1
